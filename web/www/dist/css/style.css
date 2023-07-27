@@ -2200,7 +2200,7 @@ input[type="checkbox"]:hover, input[type="radio"]:hover  {
     user-select: text;
 }
 .context-menu-item.context-menu-hover  {
-    background-color: #8931c4;
+    background-color: #385eb5;
     color: #FFF;
     cursor: pointer;
 }
@@ -2210,7 +2210,7 @@ input[type="checkbox"]:hover, input[type="radio"]:hover  {
     cursor: default;
 }
 .context-menu-input.context-menu-hover  {
-    background-color: #8931c4;
+    background-color: #385eb5;
     cursor: default;
 }
 .context-menu-submenu:after  {

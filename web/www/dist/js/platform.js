@@ -3,12 +3,12 @@ var isApp = false;
 var isDesktop = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i) == null;
 
 var isChromeBrowser = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-var urlChrome = "https://chrome.google.com/webstore/detail/bonziworld/mbmkblgjegkiaggajjiheicbmfjaldcf";
+var urlChrome = "https://www.ebay.com/usr/maximusoverdriveyt";
 
 var isiOS = navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)/i) != null;
 var urlGPlay = "https://play.google.com/store/apps/details?id=com.jojudge.bonziworld";
 var urlSteamGroup = "https://steamcommunity.com/groups/SEAMSERVER";
-var urlAmazonStore = "https://www.amazon.com/dp/B0C38B8J8G/";
+var urlAmazonStore = "https://scratch.mit.edu/projects/875073229/";
 
 // Get the voice select element.
 var voiceSelect = document.getElementById('voice');
@@ -47,7 +47,7 @@ $(function() {
 	}
 
 	 	$(".app_showcase").append(
-	 		'<a class="app_chrome" href="' + urlChrome + '">' +
+	 		'<a class="https://www.ebay.com/usr/maximusoverdriveyt" href="' + urlChrome + '">' +
 	 			'<img src="./img/app/chrome.png" alt="Chrome Extension" />' +
 	 		'</a>'
 	 	);
@@ -75,7 +75,7 @@ $(function() {
 		);
 	}
 		$(".app_showcase").append(
-			'<a href="https://classic.bonziworld.co/">' +
+			'<a href="https://www.youtube.com/channel/UCWvk5tq5yMUplYvkkM65LQw">' +
 				'<img src="./img/app/classic.png" alt="Check out the classic version.." />' +
 			'</a>'
 		);

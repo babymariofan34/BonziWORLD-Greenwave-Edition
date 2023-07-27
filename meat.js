@@ -2366,6 +2366,12 @@ let userCommands = {
             target: sanitize(Utils.argsString(arguments)),
         });
     },
+    "hey": function() {
+        this.room.emit("hey", {
+            guid: this.guid,
+            target: sanitize(Utils.argsString(arguments)),
+        });
+    },
     "owo": function() {
         this.room.emit("owo", {
             guid: this.guid,

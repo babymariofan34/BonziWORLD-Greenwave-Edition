@@ -44,7 +44,7 @@ html {
     overflow-y: auto;
 }
 body {
-    background-color: #6d33a0;
+    background-color: #3FCAAD;
     background-image: url("../../img/desktop/bonzi.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,7 @@ body {
     background-color: rgba(255, 255, 225, 0.8);
 }
 #titlebar {
-    background-color: rgba(109, 51, 160, 0.85);
+    background-color: rgba(63, 202, 173, 100);
 }
 video::-webkit-media-controls-timeline {
     background-color: #90f;
